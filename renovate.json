@@ -5,9 +5,35 @@
   ],
   "packageRules": [
     {
+      "groupName": "react",
+      "matchPackageNames": [
+        "react",
+        "react-dom",
+        "@types/react",
+        "@types/react-dom"
+      ]
+    },
+    {
+      "groupName": "eslint",
+      "matchPackageNames": [
+        "@types/eslint",
+        "babel-eslint",
+        "typescript-eslint",
+        "@typescript-eslint/{/,}**",
+        "eslint{/,}**"
+      ]
+    },
+    {
       "groupName": "langchain",
-      "matchPackageNames": ["@langchain/community", "@langchain/core", "@langchain/openai", "@langchain/ollama", "langchain"],
-      "matchPackagePrefixes": ["@langchain/"]
+      "matchPackageNames": [
+        "langchain",
+        "@langchain/classic",
+        "@langchain/community",
+        "@langchain/core",
+        "@langchain/openai",
+        "@langchain/ollama",
+        "@langchain/{/,}**"
+      ]
     }
   ]
 }
