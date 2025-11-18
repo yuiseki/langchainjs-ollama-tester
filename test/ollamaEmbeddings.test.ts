@@ -1,5 +1,5 @@
 import { OllamaEmbeddings } from "@langchain/ollama";
-import { MemoryVectorStore } from "langchain/vectorstores/memory";
+import { MemoryVectorStore } from "@langchain/classic/vectorstores/memory";
 import type { Document } from "@langchain/core/documents";
 import { expect, test } from "vitest";
 

@@ -11,15 +11,16 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@langchain/langgraph": "^0.4.0",
-    "@langchain/ollama": "^0.2.0",
-    "langchain": "^0.3.5",
+    "@langchain/classic": "^1.0.4",
+    "@langchain/langgraph": "^1.0.0",
+    "@langchain/ollama": "^1.0.0",
+    "langchain": "^1.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
-    "@langchain/core": "^0.3.17",
+    "@langchain/core": "^1.0.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@vitejs/plugin-react": "^5.0.0",
