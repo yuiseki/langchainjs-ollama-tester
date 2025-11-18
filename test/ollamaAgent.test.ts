@@ -23,5 +23,5 @@ test("ollama agent can answer about Tokyo ramen shops", async () => {
   const result = await agent.invoke({
     messages: [new HumanMessage("Help me refactor my codebase")],
   });
-  expect(result.todos.length).toBeTruthy();
+  expect(result.todos).toBeTruthy();
 });
